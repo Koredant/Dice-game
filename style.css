@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&family=Bitcount+Prop+Single:wght@100..900&display=swap');
+
+body {
+    background-image: linear-gradient(to right top, #f64df2, #d86aff, #ba7dff, #9d8bff, #8696ff, #7e94ff, #7593fe, #6c91fe, #6f84ff, #7975ff, #8863ff, #9a4cff);
+    font-family: "Bitcount Prop Single", system-ui;
+    text-align: center;
+    position: relative;
+    overflow: auto;
+    color: #020202;
+
+}
+
+h2{
+    font-size: 65px;
+}
+
+h3 {
+    font-size: 50px;
+
+}
+
+.dice {
+    display: block;
+    position: relative;
+    padding: 10px 180px;
+}
+
+.row {
+    display: flex;
+    column-gap: 20px;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.image-dice {
+    padding-top: 10px;
+    border-radius: 55px;
+    box-shadow: 0px 15px 15px 2px #515151;
+}
+
+button {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 54px;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 60px;
+    font-size: 22px;
+    text-transform: uppercasge;
+    cursor: pointer;
+    transition-duration: 0.4s
+
+}
+
+button:hover {
+    color: rgb(255, 0, 64);
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
